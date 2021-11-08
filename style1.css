@@ -1,0 +1,34 @@
+.btn{
+    background-color: rgb(246, 245, 245);
+    color: black !important;
+    
+}
+.bg-info{
+    background-color: rgba(164, 232, 236, 0.295) !important;
+}
+.btn-secondary{
+    background-color: rgb(241, 241, 241);
+}
+.btn-check{
+    background-color: rgba(211, 211, 211, 0.479);
+}
+.bg-light1{
+    background-color: rgba(246, 246, 246, 0.733) ;
+    color: rgb(209, 209, 209) !important;
+}
+.text-danger1{
+    color: rgba(255, 0, 0, 0.493);
+}
+ tr, td,th,tr th{
+    border: none !important;
+}
+.btn11{
+    background-color: rgb(209, 209, 209);
+}
+select{
+    border:none;
+    background-color: transparent;
+}
+.d-inline-block{
+    border-radius: 50%;
+}

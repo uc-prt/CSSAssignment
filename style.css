@@ -1,0 +1,93 @@
+.container{
+    background-color: blue;
+    height: 217px;
+    width: 350px;
+    color: white;
+    border-radius: 5px;
+    padding-top: 0.2em;
+    z-index: -1;
+    font-family:monospace;
+    font-size:15px;
+}
+.heading{
+    font-weight: bold;
+    margin: 5px 0px 7px 5px;
+}
+.inner-heading{
+    margin: 5px 0px 2px 5px;
+}
+span{
+    font-weight: bold;
+    display: inline-block;
+    margin-top: -45px;
+    margin-bottom: 6px;
+    margin-left: 18.7rem;
+}
+.inner-container{
+    margin-top: -20px;
+    background-color: rgb(243, 243, 243);
+    height: 186px;
+    width: 344px;
+    margin-left: 3px;
+    color: black;
+    position: relative;
+}
+
+.cancel{
+    background-color: rgb(240, 125, 125);
+}
+.show{
+    margin: 0px 10px; 
+    border: 1px solid rgb(224, 224, 224);
+}
+.icons{
+    border: 1px solid white;
+    padding: 0px 0.2rem;
+    float: left;
+    margin-left: 0.2rem;
+    border-radius: 2px;
+}
+
+input[type="text"]{
+    margin-left: 5px;
+    height: 110px;
+    width: 230px;
+    border: 0.2px solid rgb(102, 102, 201);
+    outline: none;
+}
+.close{
+    margin-left: 10rem;
+    margin-top: 0.6rem;
+    border: 0.3px solid rgb(84, 84, 177);
+}
+button{
+    border-radius: 4px;
+    padding: 0.2rem 1.3rem;
+    background-color: rgb(250, 250, 250);
+}
+.subcontainer{
+    position: absolute;
+    float: left;
+}
+.nsubcontainer{
+    width:50px;
+    position: absolute;
+    margin-left: 16rem;
+}
+.nsubcontainer button{
+        padding: 0px 0rem;
+        border:2px solid rgb(109, 109, 209);
+        margin-top: 8px;
+}
+.nsubcontainer i{
+    padding: 0.1em 1.12rem;
+    display: inline-block;
+    border: 0.2px dotted rgb(56, 56, 109);
+}
+.nsubcontainer .disabled{
+    border: 1px solid rgb(224, 224, 224);
+    padding: 0.2em 1.3rem;
+}
+.remove{
+    padding: 0.2em 0.9em !important;
+}
