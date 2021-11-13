@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CSS Assignment-1</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
+      <div class="topheader">
         <div class="header">
-            <p class="heading">Custom Shows</p>
+          <p class="heading">Custom Shows</p>
         </div>
-        <span><p class="icons quest">?</p><p class="icons cancel">X</p></span>
-        <div class="inner-container">
-            <div class="subcontainer">
-                <p class="inner-heading">C<u>u</u>stom shows</p>
-                <input type="text" id="t1" name="t1"/><br/>
-                    <button class="close"><u>C</u>lose</button>
-                <button class="show" disabled><u>S</u>how</button>
-            </div>
-            <div class="nsubcontainer">
-                <button class="newbtn"><i><u>N</u>ew...</i></button>
-                <button class="disabled" disabled><u>E</u>dit...</button>
-                <button class="disabled remove" disabled><u>R</u>emove</button>
-                <button class="disabled" disabled>Cop<u>y</u></button>
-
-            </div>
+        <div class="iconsgroup">
+          <p class="icons quest">?</p>
+          <p class="icons cancel">X</p>
         </div>
+      </div>
+      <div class="inner-container">
+        <div class="subcontainer">
+          <p class="inner-heading">C<u>u</u>stom shows</p>
+          <input type="text" id="textarea" name="textarea" />
+          <button class="close"><u>C</u>lose</button>
+          <button class="show" disabled><u>S</u>how</button>
+        </div>
+        <div class="nsubcontainer">
+          <button class="newbtn">
+            <i><u>N</u>ew...</i>
+          </button>
+          <button type="button" class="disabled" disabled>
+            <u>E</u>dit...
+          </button>
+          <button type="button" class="disabled remove" disabled>
+            <u>R</u>emove
+          </button>
+          <button type="button" class="disabled" disabled>Cop<u>y</u></button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
