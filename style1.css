@@ -48,6 +48,9 @@
 .switch {
   margin-left: 10.192em;
 }
+.d-inline-block{
+    border-radius: 50%;
+}
 @media screen and (max-width: 1060px) {
   .btn-group {
     margin-left: 0;
