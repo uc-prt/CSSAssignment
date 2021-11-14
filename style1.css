@@ -1,34 +1,78 @@
-.btn{
-    background-color: rgb(246, 245, 245);
-    color: black !important;
-    
+.active {
+  border-bottom: 4px solid #0000ff !important;
 }
-.bg-info{
-    background-color: rgba(164, 232, 236, 0.295) !important;
+.searchtoggle {
+  z-index: 10;
+  margin-left: 9.1rem !important;
+  margin-top: 10px;
 }
-.btn-secondary{
-    background-color: rgb(241, 241, 241);
+.btn {
+  background-color: rgba(246, 245, 245, 0.637);
+  color: black !important;
 }
-.btn-check{
-    background-color: rgba(211, 211, 211, 0.479);
+.bg-info1 {
+  background-color: rgba(164, 232, 236, 0.295);
 }
-.bg-light1{
-    background-color: rgba(246, 246, 246, 0.733) ;
-    color: rgb(209, 209, 209) !important;
+.select {
+  border: none;
+  background-color: transparent;
 }
-.text-danger1{
-    color: rgba(255, 0, 0, 0.493);
+.btn11 {
+  background-color: rgba(209, 209, 209, 0.829);
 }
- tr, td,th,tr th{
-    border: none !important;
+.btn-check {
+  background-color: rgba(211, 211, 211, 0.479);
 }
-.btn11{
-    background-color: rgb(209, 209, 209);
+.buttons {
+  float: right;
+  margin-top: -44px;
+  margin-left: 61em;
 }
-select{
-    border:none;
-    background-color: transparent;
+.fonts1 {
+  width: 13.5em;
+  font-size: 13px;
 }
-.d-inline-block{
-    border-radius: 50%;
+.fonts2 {
+  width: 10em;
+  font-size: 13px;
+}
+.btn-group {
+  margin-left: 14em;
+}
+.secndnav {
+  margin-left: -13em !important;
+}
+.searchi {
+  margin-left: 17.8em !important;
+}
+.switch {
+  margin-left: 10.192em;
+}
+@media screen and (max-width: 1060px) {
+  .btn-group {
+    margin-left: 0;
+    margin-top: 3em;
+  }
+  .searchi {
+    margin-left: 2em !important;
+  }
+  .secndnav {
+    overflow: auto;
+  }
+  .buttons {
+    margin-top: 40px !important ;
+    margin-left: 0rem;
+  }
+  .secndnav {
+    margin-left: 0px !important;
+    font-size: 10px !important;
+    padding: 0 !important;
+  }
+  .switch {
+    margin-left: 1em;
+  }
+  .buttons {
+    float: right;
+    margin-top: 2em;
+  }
 }
