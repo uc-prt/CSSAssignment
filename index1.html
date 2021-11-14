@@ -158,7 +158,7 @@
                             <td>Dhiroo Verma 
                                 <p><span class="badge badge-primary">New</span></p>
                             </td>
-                            <td><center>58%</center></td>
+                            <td><center><canvas id="myCanvas1" width="100" height="60"></canvas>58%</center></td>
                             <td>24-APR-19
                                 <p>2.1 years</p>
                             </td>
@@ -194,7 +194,7 @@
                             <td>Swati Kesarwani 
                                 <p><span class="badge badge-primary">Merged Sambhunath Ap</span></p>
                             </td>
-                            <td><center>64%</center></td>
+                            <td><center><canvas id="myCanvas" width="100" height="60" ></canvas>64%</center></td>
                             <td>18-FEB-17
                                 <p>4.3 years</p>
                             </td>
@@ -220,9 +220,47 @@
                         </tbody>
                         <!-- Table body -->
                     </table>
-                <!-- </div>
-               </div> -->
+                </div>
+               </div>
          
     </div>
+
 </body>
+<script>
+    var c = document.getElementById('myCanvas');
+    var ctx = c.getContext('2d');
+    ctx.beginPath();
+    ctx.arc(50,30,20,1.5*Math.PI,0.89*Math.PI,0);
+    
+    ctx.fillStyle="green";
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(50,30);
+     ctx.lineTo(22,48);
+     ctx.lineTo(50,0);
+     ctx.lineTo(50,30);
+     ctx.closePath();
+    ctx.fillStyle="white";
+    ctx.fill();
+    ctx.strokeStyle = 'white';
+    ctx.stroke();
+    
+    var c1 = document.getElementById('myCanvas1');
+var ctx1 = c1.getContext('2d');
+ctx1.beginPath();
+ctx1.arc(50,30,20,1.5*Math.PI,0.71*Math.PI,0);
+
+ctx1.fillStyle="green";
+ctx1.fill();
+ctx1.beginPath();
+ctx1.moveTo(50,30);
+ ctx1.lineTo(29,61);
+ ctx1.lineTo(50,0);
+ ctx1.lineTo(50,30);
+ ctx1.closePath();
+ctx1.fillStyle="white";
+ctx1.fill();
+
+    
+    </script> 
 </html>
