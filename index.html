@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>CSS Assignment-1</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="topheader">
-        <div class="header">
-          <p class="heading">Custom Shows</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Assignment.</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="outer-box">
+            <form action="#" id="popup_form" name="popup_form">
+                <div class="header-box">
+                    <span>Custom Shows</span>
+                    <!-- header buttons started -->
+                    <button type="button" id="close_box" name="close_box" class="btn close">&times;</button>
+                    <button type="button" id="help_box" name="help_box" class="btn help">&#63;</button>
+                </div>
+                <div class="inner-box">
+                    <div class="box-content">
+                        <p>C<u>u</u>stom shows:</p>
+                        <textarea id="text_content" name="text_content"></textarea>
+                        <div id="btn-close"><button type="button" id="btn_close" name="btn_close" class="btn-close btn-options"><u>C</u>lose</button></div>
+                    </div>
+                    <div class="box-options">
+                       
+                        <div id="parent_new"><button type="button" class="btn-options" name="new_btn" id="new_btn"><u>N</u>ew...</button></div>
+                        <div class="disabled"><button type="button" class="btn-options" name="edit_btn" id="edit_btn" disabled><u>E</u>dit...</button></div>
+                        <div class="disabled"><button type="button" class="btn-options" name="remove_btn" id="remove_btn" disabled><u>R</u>emove</button></div>
+                        <div class="disabled" id="copy_parent"><button type="button" class="btn-options" name="copy_btn" id="copy_btn" disabled>Cop<u>y</u></button></div>
+                        <div class="disabled" id="show_parent"><button type="button" class="btn-options" name="show_btn" id="show_btn" disabled><u>S</u>how</button></div>
+                       
+                    </div>
+                </div>
+               
+            </form>
         </div>
-        <div class="iconsgroup">
-          <p class="icons quest">?</p>
-          <p class="icons cancel">X</p>
-        </div>
-      </div>
-      <div class="inner-container">
-        <div class="subcontainer">
-          <p class="inner-heading">C<u>u</u>stom shows</p>
-          <input type="text" id="textarea" name="textarea" />
-          <button class="close"><u>C</u>lose</button>
-          <button class="show" disabled><u>S</u>how</button>
-        </div>
-        <div class="nsubcontainer">
-          <button class="newbtn">
-            <i><u>N</u>ew...</i>
-          </button>
-          <button type="button" class="disabled" disabled>
-            <u>E</u>dit...
-          </button>
-          <button type="button" class="disabled remove" disabled>
-            <u>R</u>emove
-          </button>
-          <button type="button" class="disabled" disabled>Cop<u>y</u></button>
-        </div>
-      </div>
-    </div>
-  </body>
+    
+    </body>
 </html>
