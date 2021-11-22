@@ -1,109 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Css Assignment.</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- outer box(main box) -->
-    <div class="outerbox">
-      <form action="#" id="popup_form" name="popup_form">
-        <div class="headerbox">
-          <span>Custom Shows</span>
-          <!-- header buttons started -->
-          <button
-            type="button"
-            id="close_box"
-            name="close_box"
-            class="btn close"
-          >
-            X
-          </button>
-          <button type="button" id="help_box" name="help_box" class="btn help">
-            ?
-          </button>
-          <!-- end of header buttons -->
-        </div>
-        <!-- inner box(control box) starts -->
-        <div class="innerbox">
-          <div class="boxcontent">
-            <p>C<u>u</u>stom shows:</p>
-            <textarea id="text_content" name="text_content"></textarea>
-            <div id="btnclose">
-              <button
-                type="button"
-                id="btn_close"
-                name="btn_close"
-                class="btnclose btnoptions"
-              >
-                <u>C</u>lose
-              </button>
-            </div>
-          </div>
-          <div class="boxoptions">
-            <div id="parent_new">
-              <button
-                type="button"
-                class="btnoptions"
-                name="new_btn"
-                id="new_btn"
-              >
-                <u>N</u>ew...
-              </button>
-            </div>
-            <div class="disabled">
-              <button
-                type="button"
-                class="btnoptions"
-                name="edit_btn"
-                id="edit_btn"
-                disabled
-              >
-                <u>E</u>dit...
-              </button>
-            </div>
-            <div class="disabled">
-              <button
-                type="button"
-                class="btnoptions"
-                name="remove_btn"
-                id="remove_btn"
-                disabled
-              >
-                <u>R</u>emove
-              </button>
-            </div>
-            <div class="disabled" id="copy_parent">
-              <button
-                type="button"
-                class="btnoptions"
-                name="copy_btn"
-                id="copy_btn"
-                disabled
-              >
-                Cop<u>y</u>
-              </button>
-            </div>
-            <div class="disabled" id="show_parent">
-              <button
-                type="button"
-                class="btnoptions"
-                name="show_btn"
-                id="show_btn"
-                disabled
-              >
-                <u>S</u>how
-              </button>
-            </div>
-            <!-- end of option buttons -->
-          </div>
-        </div>
-        <!-- end of inner box -->
-      </form>
-    </div>
-    <!-- end of outer box -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Css Assignment.</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <!-- outer box(main box) -->
+      <div class="outer_box">
+          <form action="#" id="popup_form" name="popup_form">
+              <div class="header_box">
+                  <span>Custom Shows</span>
+                  <!-- header buttons started -->
+                  <button type="button" id="close_box" name="close_box" class="btn close">X</button>
+                  <button type="button" id="help_box" name="help_box" class="btn help">?</button>
+                  <!-- end of header buttons -->
+              </div>
+              <!-- inner box(control box) starts -->
+              <div class="inner_box">
+                  <div class="box_content">
+                      <p>C<u>u</u>stom shows:</p>
+                      <textarea id="text_content" name="text_content"></textarea>
+                      <div>
+                          <button type="button" id="btn_close" name="btn_close" class="btn_close btn_options">
+                              <u>C</u>lose
+                          </button>
+                      </div>
+                  </div>
+                  <div class="box_options">
+                      <div id="parent_new">
+                          <button type="button" class="btn_options" name="new_btn" id="new_btn" >
+                              <u>N</u>ew...
+                          </button>
+                      </div>
+                      <div class="disabled">
+                          <button type="button" class="btn_options" name="edit_btn" id="edit_btn" disabled ="disabled">
+                              <u>E</u>dit...
+                          </button>
+                      </div>
+                      <div class="disabled">
+                        <button type="button" class="btn_options" name="remove_btn" id="remove_btn" disabled ="disabled">
+                            <u>R</u>emove
+                        </button>
+                      </div>
+                      <div class="disabled" id="copy_parent">
+                          <button type="button" class="btn_options" name="copy_btn" id="copy_btn" disabled ="disabled">
+                              Cop<u>y</u>
+                          </button>
+                      </div>
+                      <div class="disabled" id="show_parent">
+                          <button type="button" class="btn_options" name="show_btn" id="show_btn" disabled ="disabled">
+                              <u>S</u>how
+                          </button>
+                      </div>
+                    <!-- end of option buttons -->
+                  </div>
+              </div>
+              <!-- end of inner box -->
+          </form>
+      </div>
+      <!-- end of outer box -->
   </body>
 </html>
