@@ -1,268 +1,207 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 11px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 11px;
 }
 
 .outer_box {
-  width: 347px;
-  margin: auto;
-  margin-top: 20px;
-  border-radius: 10px 10px 0 0;
-  background-color: #0055e5;
+    width: 347px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: #0055e5;
 }
 
 .header_box {
-  background: rgba(0, 67, 207, 1);
-  background: linear-gradient(
-    top,
-    rgba(0, 67, 207, 1) 0%,
-    rgba(2, 106, 254, 1) 1%,
-    rgba(0, 67, 207, 1) 14%,
-    rgba(0, 85, 229, 1) 57%,
-    rgba(2, 106, 254, 1) 92%,
-    rgba(0, 67, 207, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 67, 207, 1) 0%,
-    rgba(2, 106, 254, 1) 1%,
-    rgba(0, 67, 207, 1) 14%,
-    rgba(0, 85, 229, 1) 57%,
-    rgba(2, 106, 254, 1) 92%,
-    rgba(0, 67, 207, 1) 100%
-  );
-  height: 25px;
+    background: rgba(0, 67, 207, 1);
+    background: linear-gradient( top, rgba(0, 67, 207, 1) 0%, rgba(2, 106, 254, 1) 1%, rgba(0, 67, 207, 1) 14%, rgba(0, 85, 229, 1) 57%, rgba(2, 106, 254, 1) 92%, rgba(0, 67, 207, 1) 100%);
+    background: linear-gradient( to bottom, rgba(0, 67, 207, 1) 0%, rgba(2, 106, 254, 1) 1%, rgba(0, 67, 207, 1) 14%, rgba(0, 85, 229, 1) 57%, rgba(2, 106, 254, 1) 92%, rgba(0, 67, 207, 1) 100%);
+    height: 25px;
 }
 
 .header_box,
 .header_box .btn {
-  color: #fff;
+    color: #fff;
 }
 
 .header_box,
 .box_content {
-  padding: 2px;
+    padding: 2px;
 }
 
 .box_options div,
 #btn_close,
 .btn_options,
 .header_box .btn {
-  border-radius: 3px;
+    border-radius: 3px;
 }
 
 .header_box .btn {
-  width: 21px;
-  font-size: 18px;
-  margin-left: 2px;
-  border: 1px solid #fff;
+    width: 21px;
+    font-size: 18px;
+    margin-left: 2px;
+    border: 1px solid #fff;
 }
 
 .header_box .close {
-  background: rgba(240, 169, 148, 1);
-  background: linear-gradient(
-    -45deg,
-    rgba(240, 169, 148, 1) 0%,
-    rgba(231, 99, 56, 1) 38%,
-    rgba(188, 77, 47, 1) 100%
-  );
-  background: linear-gradient(
-    135deg,
-    rgba(240, 169, 148, 1) 0%,
-    rgba(231, 99, 56, 1) 38%,
-    rgba(188, 77, 47, 1) 100%
-  );
+    background: rgba(240, 169, 148, 1);
+    background: linear-gradient( -45deg, rgba(240, 169, 148, 1) 0%, rgba(231, 99, 56, 1) 38%, rgba(188, 77, 47, 1) 100%);
+    background: linear-gradient( 135deg, rgba(240, 169, 148, 1) 0%, rgba(231, 99, 56, 1) 38%, rgba(188, 77, 47, 1) 100%);
 }
 
 .header_box .help {
-  background: rgba(124, 160, 248, 1);
-  background: linear-gradient(
-    -45deg,
-    rgba(124, 160, 248, 1) 0%,
-    rgba(62, 117, 245, 1) 30%,
-    rgba(44, 124, 247, 1) 68%,
-    rgba(40, 95, 227, 1) 100%
-  );
-  background: linear-gradient(
-    135deg,
-    rgba(124, 160, 248, 1) 0%,
-    rgba(62, 117, 245, 1) 30%,
-    rgba(44, 124, 247, 1) 68%,
-    rgba(40, 95, 227, 1) 100%
-  );
+    background: rgba(124, 160, 248, 1);
+    background: linear-gradient( -45deg, rgba(124, 160, 248, 1) 0%, rgba(62, 117, 245, 1) 30%, rgba(44, 124, 247, 1) 68%, rgba(40, 95, 227, 1) 100%);
+    background: linear-gradient( 135deg, rgba(124, 160, 248, 1) 0%, rgba(62, 117, 245, 1) 30%, rgba(44, 124, 247, 1) 68%, rgba(40, 95, 227, 1) 100%);
 }
 
 .header_box span,
 .header_box .btn {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .header_box span {
-  padding-top: 4px;
+    padding-top: 4px;
 }
 
 .header_box span,
 .outer_box {
-  font-size: 14px;
-  padding-left: 2px;
+    font-size: 14px;
+    padding-left: 2px;
 }
 
 .header_box span,
-.inner_box > div {
-  display: inline-block;
+.inner_box>div {
+    display: inline-block;
 }
 
 .inner_box .box_content p {
-  padding-bottom: 2px;
+    padding-bottom: 2px;
 }
 
-.inner_box > div {
-  height: 182px;
+.inner_box>div {
+    height: 182px;
 }
 
 .inner_box {
-  background-color: #ece9d8;
+    background-color: #ece9d8;
 }
 
 #btn_close,
 .box_options div {
-  background-color: #f5f4ea;
+    background-color: #f5f4ea;
 }
 
 .box_content {
-  width: 251px;
+    width: 251px;
 }
 
 .box_content,
 .box_options {
-  padding: 7px 7px 4px 5px;
+    padding: 7px 7px 4px 5px;
 }
 
 .box_content #text_content {
-  resize: none;
+    resize: none;
 }
 
 #btn_close,
 .box_options,
 .header_box .btn {
-  float: right;
+    float: right;
 }
 
 #btn_close,
 .box_options {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 .box_options {
-  width: 90px;
+    width: 90px;
 }
 
 .outer_box {
-  padding: 3px;
+    padding: 3px;
 }
 
 .box_options div,
 #btn_close,
 .header_box .btn {
-  height: 21px;
+    height: 21px;
 }
 
 .box_options div,
 #btn_close {
-  border: 1px solid #c9c7ba;
-  width: 73px;
-  margin-bottom: 9px;
-  padding: 1px;
+    border: 1px solid #c9c7ba;
+    width: 73px;
+    margin-bottom: 9px;
+    padding: 1px;
 }
 
 .btn_options {
-  height: 17px;
+    height: 17px;
 }
 
 .box_options div:first-child,
 #btn_close {
-  background: rgba(255, 255, 255, 1);
-  background: linear-gradient(
-    top,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(243, 243, 238, 1) 47%,
-    rgba(214, 208, 197, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(243, 243, 238, 1) 47%,
-    rgba(214, 208, 197, 1) 100%
-  );
+    background: rgba(255, 255, 255, 1);
+    background: linear-gradient( top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 238, 1) 47%, rgba(214, 208, 197, 1) 100%);
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 238, 1) 47%, rgba(214, 208, 197, 1) 100%);
 }
 
 .box_options div:first-child,
 #btn_close,
 .box_content #text_content {
-  border-color: #406d97;
+    border-color: #406d97;
 }
 
 .box_options #parent_new {
-  background: rgba(193, 216, 243, 1);
-  background: linear-gradient(
-    top,
-    rgba(193, 216, 243, 1) 0%,
-    rgba(115, 143, 230, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(193, 216, 243, 1) 0%,
-    rgba(115, 143, 230, 1) 100%
-  );
+    background: rgba(193, 216, 243, 1);
+    background: linear-gradient( top, rgba(193, 216, 243, 1) 0%, rgba(115, 143, 230, 1) 100%);
+    background: linear-gradient( to bottom, rgba(193, 216, 243, 1) 0%, rgba(115, 143, 230, 1) 100%);
 }
+
 .box_options #parent_new:hover,
 .box_options #parent_new:active,
 #btn_close:active,
 #btn-close:hover {
-  background: rgba(193, 216, 243, 1);
-  background: linear-gradient(
-    top,
-    rgba(193, 216, 243, 1) 0%,
-    rgba(115, 143, 230, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(193, 216, 243, 1) 0%,
-    rgba(115, 143, 230, 1) 100%
-  );
+    background: rgba(193, 216, 243, 1);
+    background: linear-gradient( top, rgba(193, 216, 243, 1) 0%, rgba(115, 143, 230, 1) 100%);
+    background: linear-gradient( to bottom, rgba(193, 216, 243, 1) 0%, rgba(115, 143, 230, 1) 100%);
 }
 
 #text_content,
 .btn_options {
-  width: 100%;
+    width: 100%;
 }
+
 #btn_close {
-  border: 1px solid #0055e5;
+    border: 1px solid #0055e5;
 }
+
 #text_content {
-  height: 121px;
+    height: 121px;
 }
+
 #parent_new .btn_options {
-  border: 1px dotted black;
+    border: 1px dotted rgb(8, 8, 8);
 }
 
 .disabled button:hover,
 .disabled button:active,
 .disabled button:focus,
 .btn_options {
-  border: 0;
-  outline: none;
+    border: 0;
+    outline: none;
 }
 
 .box_options #copy_parent {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .box_options #show_parent {
-  position: relative;
-  top: 9px;
+    position: relative;
+    top: 9px;
 }
