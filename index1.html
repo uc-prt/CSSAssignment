@@ -63,8 +63,8 @@
                                 </button>
                             </div>
                             <button type="button" id="enroll_btn" name="enroll_btn" class="btn border d-flex align-items-center">
-                                    <i class="icomoon-add-license-enroll-sm s3 mr-1"></i>Enroll
-                                </button>
+                                <i class="icomoon-add-license-enroll-sm s3 mr-1"></i>Enroll
+                            </button>
                         </div>
                     </div>
                     <div class="col-md-3"></div>
@@ -121,7 +121,7 @@
                             <tr>
                                 <th>
                                     <span class="d-flex">
-                                        <input type="checkbox" id="chkbox1" class="mr-1 form-control w-50" name="chkbox1" value="select_val" />
+                                        <input type="checkbox" id="chkbox_first" class="mr-1 form-control w-50" name="chkbox_first" value="select_val" />
                                         <label for="select1" class="form-control-label w-25">
                                             <select class="form-control h-25 border-0" disabled id="select1" name="select1"></select>
                                         </label>
@@ -169,7 +169,7 @@
                                 </th>
                                 <th>
                                     <p class="pb-0 mb-0">Last Login</p>
-                                    <button type="button" id="time_passed_btn2" name="time_passed_btn2" class="btn d-block dropdown-toggle p-0">
+                                    <button type="button" id="time_passed_btn_two" name="time_passed_btn_two" class="btn d-block dropdown-toggle p-0">
                                         <small>Time Passed</small>
                                     </button>
                                 </th>
@@ -182,8 +182,8 @@
                             <tr style="opacity: 0.5">
                                 <td class="pt-4">
                                     <div class="d-flex">
-                                        <input class="form-control w-50" type="checkbox" id="input1" />
-                                        <label class="form-control-label font13 pt-2 pl-1" for="input1">1</label>
+                                        <input class="form-control w-50" type="checkbox" id="input_first" />
+                                        <label class="form-control-label font13 pt-2 pl-1" for="input_first">1</label>
                                     </div>
                                 </td>
                                 <td class="pt-3 pl-4">
@@ -206,7 +206,7 @@
                                 </td>
                                 <td class="pl-4 ml-2">
                                     <center>
-                                        <canvas id="myCanvas1" width="80" height="40"></canvas>58%
+                                        <canvas id="my_canvas_first" width="80" height="40"></canvas>58%
                                     </center>
                                 </td>
                                 <td>
@@ -230,15 +230,15 @@
                                         <button type="button" id="setting1" name="setting1" class="btn border-primary border-right-0 pr-2">
                                             <i class="icomoon-24px-settings s3"></i>
                                         </button>
-                                        <button type="button" id="settingdrop1" name="settingdrop1" class=" btn border-primary border-left-0 dropdown-toggle pl-0" data-toggle="dropdown"></button>
+                                        <button type="button" id="settingdrop_first" name="settingdrop_first" class=" btn border-primary border-left-0 dropdown-toggle pl-0" data-toggle="dropdown"></button>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="pt-4">
                                     <div class="d-flex">
-                                        <input class="form-control w-50" type="checkbox" id="input2" />
-                                        <label class="form-control-label pt-2 font13 pl-1" for="input2">2</label>
+                                        <input class="form-control w-50" type="checkbox" id="input_two" />
+                                        <label class="form-control-label pt-2 font13 pl-1" for="input_two">2</label>
                                     </div>
                                 </td>
                                 <td class="pt-3 pl-4">
@@ -261,7 +261,7 @@
                                 </td>
                                 <td class="pl-4">
                                     <center>
-                                        <canvas id="myCanvas" width="80" height="40"></canvas>64%
+                                        <canvas id="my_canvas" width="80" height="40"></canvas>64%
                                     </center>
                                 </td>
                                 <td>
@@ -282,10 +282,10 @@
                                 </td>
                                 <td>
                                     <div class="btn-group">
-                                        <button type="button" id="setting2" name="setting2" class="btn border-primary border-right-0 pr-2">
+                                        <button type="button" id="setting_two" name="setting_two" class="btn border-primary border-right-0 pr-2">
                                             <i class="icomoon-24px-settings s3"></i>
                                         </button>
-                                        <button type="button" id="settingdrop2" name="settingdrop2" class="btn border-primary border-left-0 dropdown-toggle pl-0" data-toggle="dropdown"></button>
+                                        <button type="button" id="setting_drop_two" name="setting_drop_two" class="btn border-primary border-left-0 dropdown-toggle pl-0" data-toggle="dropdown"></button>
                                     </div>
                                 </td>
                             </tr>
@@ -296,7 +296,7 @@
         </form>
     </body>
     <script>
-        var c = document.getElementById("myCanvas");
+        var c = document.getElementById("my_canvas");
         var ctx = c.getContext("2d");
         ctx.beginPath();
         ctx.arc(50, 30, 10, 1.5 * Math.PI, 0.89 * Math.PI, 0);
@@ -312,7 +312,7 @@
         ctx.fillStyle = "white";
         ctx.fill();
 
-        var c1 = document.getElementById("myCanvas1");
+        var c1 = document.getElementById("my_canvas_first");
         var ctx1 = c1.getContext("2d");
         ctx1.beginPath();
         ctx1.arc(50, 30, 10, 1.5 * Math.PI, 0.71 * Math.PI, 0);
